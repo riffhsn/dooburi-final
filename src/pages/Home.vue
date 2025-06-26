@@ -1,5 +1,6 @@
 <template>
 
+
 <Banner></Banner>
 <Categories></Categories>
 <About></About>
@@ -10,7 +11,10 @@
 <News></News>
 <Blog></Blog>
 
-<section class="testimonial px-10 pb-20 pt-10 bg-cover bg-center bg-[url('../assets/images/section_bg.jpg')]">
+<div class="homepage-background bg-[url('../assets/images/section_bg.jpg')]"></div>
+
+
+<section class="testimonial px-10 pb-20 pt-10 bg-[url('../assets/images/section_bg.jpg')] bg-cover bg-center ">
 <div class="container">
     <div class="testimonial_heading">
         <h2 class="text-[22px] sm:text-4xl font-bold text-center pb-10">Here's what our members are saying about us!</h2>
@@ -86,7 +90,8 @@ import Videos from '@/components/Videos.vue';
 
 </script>
 
-<style>
+<style scoped>
+
 @media(max-width: 376px) {
 .testimonial_item{
     height: 530px;

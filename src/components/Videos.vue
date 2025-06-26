@@ -1,6 +1,6 @@
 <template>
     <Section
-      class="mx-auto py-[20px] md:py-[50px] px-4 md:px-[50px] bg-center bg-cover bg-[url('../assets/images/section_bg.jpg')]"
+      class="mx-auto py-[20px] md:py-[50px] px-4 md:px-[50px] bg-[url('../assets/images/section_bg.jpg')] bg-center bg-cover "
     >
       <h2 class="text-center text-4xl sm:text-5xl md:text-6xl animate-pulse py-5">
         Artist Interviews

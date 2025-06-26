@@ -1,5 +1,5 @@
 <template>
-  <section class="pb-[50px] banner bg-center bg-cover bg-[url('../assets/images/section_bg.jpg')] relative">
+  <section class="banner bg-[url('../assets/images/section_bg.jpg')] bg-center bg-cover relative">
     <div class="relative">
       <!-- Background Video -->
       <video class="w-full h-auto object-cover" autoplay loop muted src="../assets/videos/artpiece-small.mp4" type="video/mp4"></video>

@@ -1,6 +1,6 @@
 <template>
   <section
-    class="py-[20px] md:py-[50px] px-[30px] bg-center bg-cover bg-[url('../assets/images/section_bg.jpg')]"
+    class="py-[20px] md:py-[50px] px-[30px] bg-[url('../assets/images/section_bg.jpg')] bg-center bg-cover"
   >
     <h2 class="text-center text-5xl md:text-6xl animate-pulse py-3">News</h2>
     <h3 class="font-sig text-[16px] font-semibold text-center pb-5">

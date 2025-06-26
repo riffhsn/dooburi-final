@@ -1,5 +1,5 @@
 <template>
-  <section class="py-[20px] md:py-[50px] bg-cover bg-center bg-[url('../assets/images/section_bg.jpg')]">
+  <section class="py-[20px] md:py-[50px] bg-[url('../assets/images/section_bg.jpg')] bg-cover bg-center">
     <div class="artist_header">
       <h2 class="text-center text-3xl sm:text-4xl md:text-6xl animate-pulse py-6 md:py-10">Featured Artists</h2>
     </div>

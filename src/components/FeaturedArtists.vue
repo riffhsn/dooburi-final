@@ -1,5 +1,5 @@
 <template>
-<section class="hidden categories py-[20px] md:py-[50px] px-[50px] bg-center bg-cover bg-[url('../assets/images/section_bg.jpg')]">
+<section class="hidden categories py-[20px] md:py-[50px] px-[50px] bg-center bg-cover">
     <div class="container">
  <div>
         <h2 class="text-center md:text-6xl animate-pulse py-10">Featured Artists</h2>
