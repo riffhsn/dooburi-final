@@ -1,5 +1,6 @@
 <template>
 
+<section class="bg-[#708090]">
 
 <Banner></Banner>
 <Categories></Categories>
@@ -11,10 +12,7 @@
 <News></News>
 <Blog></Blog>
 
-<div class="homepage-background bg-[url('../assets/images/section_bg.jpg')]"></div>
-
-
-<section class="testimonial px-10 pb-20 pt-10 bg-[url('../assets/images/section_bg.jpg')] bg-cover bg-center ">
+<section class="testimonial px-10 pb-20 pt-10  bg-cover bg-center mt-5">
 <div class="container">
     <div class="testimonial_heading">
         <h2 class="text-[22px] sm:text-4xl font-bold text-center pb-10">Here's what our members are saying about us!</h2>
@@ -70,6 +68,9 @@
 
 <Newsletter></Newsletter>
 
+
+</section>
+
 </template>
 
 <script setup>
@@ -91,6 +92,10 @@ import Videos from '@/components/Videos.vue';
 </script>
 
 <style scoped>
+
+.homepage-background {
+    background-color: #708090;
+}
 
 @media(max-width: 376px) {
 .testimonial_item{

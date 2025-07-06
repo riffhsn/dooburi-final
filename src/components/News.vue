@@ -1,6 +1,6 @@
 <template>
   <section
-    class="py-[20px] md:py-[50px] px-[30px] bg-[url('../assets/images/section_bg.jpg')] bg-center bg-cover"
+    class="pt-[20px] md:pt-[50px] px-[30px]"
   >
     <h2 class="text-center text-5xl md:text-6xl animate-pulse py-3">News</h2>
     <h3 class="font-sig text-[16px] font-semibold text-center pb-5">
@@ -15,12 +15,12 @@
       <div
         v-for="newsItem in news"
         :key="newsItem.title"
-        class="www relative w-[300px] h-[250px] md:w-[260px] lg:w-[260px] md:h-[260px] lg:h-[250px]"
+        class="www relative w-[300px] h-[250px] md:w-[260px] lg:w-[260px] md:h-[260px] lg:h-[250px] hover:scale-125 transition delay-100 mt-12"
       >
         <img
           :src="newsItem.image"
           alt=""
-          class="w-full h-full object-cover"
+          class="w-full h-full object-cover rounded-xl"
         />
 
         <div
@@ -42,7 +42,6 @@
     </div>
   </section>
 </template>
-
   
 <script setup>
 

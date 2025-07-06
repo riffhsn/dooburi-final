@@ -1,5 +1,5 @@
 <template>
-<section class="subscribe pb-[50px] bg-[url('../assets/images/section_bg.jpg')] bg-center bg-cover">
+<section class="subscribe pb-[50px]">
 <div class="container">
 <div class="subscribe_header">
     <h2 class="font-sig font-semibold text-[22px] sm:text-3xl text-black text-center flex justify-center py-5">SUBSCRIBE To Our Newsletter</h2>

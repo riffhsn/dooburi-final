@@ -1,6 +1,6 @@
 <template>
     <section
-      class="px-5 curator_pick py-[20px] md:py-[50px] bg-[url('../assets/images/section_bg.jpg')] bg-cover bg-center"
+      class="px-5 curator_pick pt-[20px] md:pt-[50px]"
     >
       <div class="container mx-auto">
         <!-- Header -->

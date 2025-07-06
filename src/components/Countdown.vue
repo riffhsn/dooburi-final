@@ -14,19 +14,19 @@
             <div class="flex gap-x-2 sm:gap-x-4 md:gap-x-10 justify-center text-center">
              <div>
                 <h3 class="font-sig font-semibold text-gray-200 text-2xl md:text-4xl px-5 py-5 bg-[#0059b3] rounded-2xl">{{ displayDays }}</h3> 
-                <p class="font-sig font-semibold text-[20px] text-gray-500">Days</p>
+                <p class="font-sig font-semibold text-[20px] text-black">Days</p>
             </div>
             <div>
                 <h3 class="font-sig font-semibold text-2xl md:text-4xl text-gray-200 px-5 py-5 bg-[#0059b3] rounded-2xl">{{ displayHours }}</h3> 
-                <p class="font-sig font-semibold text-[20px] text-gray-500">Hours</p>
+                <p class="font-sig font-semibold text-[20px] text-black">Hours</p>
             </div>          
                 <div>
                 <h3 class="font-sig font-semibold text-2xl md:text-4xl text-gray-200 px-5 py-5 bg-[#0059b3] rounded-2xl">{{ displayMinutes }}</h3> 
-                <p class="font-sig font-semibold text-[20px] text-gray-500">Minutes</p>
+                <p class="font-sig font-semibold text-[20px] text-black">Minutes</p>
             </div>
                 <div>
                 <h3 class="font-sig font-semibold text-2xl md:text-4xl text-gray-200 px-5 py-5 bg-[#0059b3] rounded-2xl">{{ displaySeconds }}</h3> 
-                <p class="font-sig font-semibold text-[20px] text-gray-500">Seconds</p>
+                <p class="font-sig font-semibold text-[20px] text-black">Seconds</p>
             </div>
         </div>
     </div>

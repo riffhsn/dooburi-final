@@ -1,6 +1,6 @@
 <template>
     <section
-      class="blog py-[20px] md:py-[50px] px-[20px] sm:px-[30px] md:px-[50px] bg-[url('../assets/images/section_bg.jpg')] bg-center bg-cover" >
+      class="blog pt-[20px] md:pt-[50px] px-[20px] sm:px-[30px] md:px-[50px]" >
       <h2 class="text-center text-5xl md:text-6xl animate-pulse py-10">Blogs</h2>
   
       <div
@@ -18,15 +18,17 @@
           :key="blog"
           class="ww relative mx-auto
                  w-[300px] 
-                 
                  sm:w-[280px] sm:h-[250px]
                  md:w-[280px] md:h-[260px]
-                 lg:w-[280px] lg:h-[320px]"
+                 lg:w-[280px] lg:h-[320px]
+                 hover:scale-125 transition delay-100 mt-12
+                 "
+                 
         >
           <img
             :src="blog.image"
             alt=""
-             class="w-full h-full object-cover"
+             class="w-full h-full object-cover rounded-xl"
           />
   
           <div
