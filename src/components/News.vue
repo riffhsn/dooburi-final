@@ -1,6 +1,6 @@
 <template>
   <section
-    class="pt-[20px] md:pt-[50px] px-[30px]"
+    class="pt-[20px] md:pt-[50px] px-[30px] pb-[50px]"
   >
     <h2 class="text-center text-5xl md:text-6xl animate-pulse py-3">News</h2>
     <h3 class="font-sig text-[16px] font-semibold text-center pb-5">

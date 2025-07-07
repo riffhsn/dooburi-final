@@ -1,6 +1,6 @@
 <template>
     <section
-      class="blog pt-[20px] md:pt-[50px] px-[20px] sm:px-[30px] md:px-[50px]" >
+      class="blog pt-[20px] md:pt-[50px] px-[20px] sm:px-[30px] md:px-[50px] pb-[50px]" >
       <h2 class="text-center text-5xl md:text-6xl animate-pulse py-10">Blogs</h2>
   
       <div

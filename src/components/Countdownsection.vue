@@ -23,9 +23,9 @@
   
           <!-- Image and overlay -->
           <div class="relative w-full md:w-1/2">
-            <img :src="explore_1" class="w-full object-cover mt-[-60px] md:mt-0" />
+            <img :src="explore_1" class="w-full object-cover mt-[-60px] md:mt-0 rounded-xl" />
             <div
-              class="item bg-[#0059b3] opacity-98 px-3 py-3 sm:px-8 sm:py-8 md:py-1 lg:py-3 md:px-5 text-center absolute bottom-[5%] left-1/2 transform -translate-x-1/2">
+              class="item bg-[#0059b3] rounded-xl opacity-98 px-3 py-3 sm:px-8 sm:py-8 md:py-1 lg:py-3 md:px-5 text-center absolute bottom-[5%] left-1/2 transform -translate-x-1/2">
               <h3 class="font-sig text-[18px] md:text-2xl font-semibold text-white">Lola</h3>
               <h3 class="font-sig text-[16px] md:text-xl font-semibold text-white">By Arifur Rahman</h3>
               <h3 class="font-sig text-[16px] md:text-xl font-semibold text-white">$120</h3>
